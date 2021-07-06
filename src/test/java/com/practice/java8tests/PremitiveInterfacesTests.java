@@ -1,10 +1,10 @@
-package com.epam.java8tests;
+package com.practice.java8tests;
 
 
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.epam.genericfunctions.PremitiveInterfacesTasks;
+import com.practice.genericfunctions.PremitiveInterfacesTasks;
 
 public class PremitiveInterfacesTests extends PremitiveInterfacesTasks {
 

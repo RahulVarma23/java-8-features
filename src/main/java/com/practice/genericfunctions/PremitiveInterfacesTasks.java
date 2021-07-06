@@ -1,4 +1,4 @@
-package com.epam.genericfunctions;
+package com.practice.genericfunctions;
 
 import java.util.Random;
 import java.util.function.IntConsumer;

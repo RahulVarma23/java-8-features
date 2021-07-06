@@ -1,4 +1,4 @@
-package com.epam.java8tests;
+package com.practice.java8tests;
 
 import java.util.ArrayList;
 import java.util.function.Predicate;
@@ -6,8 +6,8 @@ import java.util.function.Predicate;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.epam.userdefined.Product;
-import com.epam.userdefined.Response;
+import com.practice.userdefined.Product;
+import com.practice.userdefined.Response;
 
 public class PredicateTests {
 	

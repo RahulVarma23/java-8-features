@@ -1,9 +1,10 @@
-package com.epam.genericfunctions;
+package com.practice.genericfunctions;
 
 import java.util.List;
+
 import java.util.stream.Collectors;
 
-import com.epam.userdefined.Product;
+import com.practice.userdefined.Product;
 
 public class StreamsTasks  {
 	

@@ -1,4 +1,4 @@
-package com.epam.java8tests;
+package com.practice.java8tests;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.util.function.Supplier;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.epam.userdefined.Product;
+import com.practice.userdefined.Product;
 
 import org.apache.commons.lang3.RandomStringUtils;
 

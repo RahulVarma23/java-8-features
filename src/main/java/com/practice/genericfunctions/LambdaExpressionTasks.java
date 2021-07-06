@@ -1,4 +1,4 @@
-package com.epam.genericfunctions;
+package com.practice.genericfunctions;
 
 public class LambdaExpressionTasks {
 	public boolean isPolindrome(String originalString) {	

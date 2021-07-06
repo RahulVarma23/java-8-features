@@ -1,4 +1,4 @@
-package com.epam.fuctionalinterfaces;
+package com.practice.fuctionalinterfaces;
 
 @FunctionalInterface
 public interface TestAnagram {

@@ -1,6 +1,6 @@
-package com.epam.fuctionalinterfaces;
+package com.practice.fuctionalinterfaces;
 
-import com.epam.userdefined.Employee;
+import com.practice.userdefined.Employee;
 
 @FunctionalInterface
 public interface TestReference {

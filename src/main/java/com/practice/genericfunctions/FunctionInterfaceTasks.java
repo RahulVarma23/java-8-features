@@ -1,15 +1,16 @@
-package com.epam.genericfunctions;
+package com.practice.genericfunctions;
 
 import java.util.List;
+
 import java.util.function.Function;
 
-import com.epam.userdefined.Product;
+import com.practice.userdefined.Product;
 
 public class FunctionInterfaceTasks {
 
 	public int findCostOfAllProducts(List<Product>list) {
 		int costOfAllProduct=0;
-		Function<Product,Integer>function= product->{		
+		Function<com.practice.userdefined.Product,Integer>function= product->{		
 			return product.pPrice;	
 		};		
 		for (Product product:list) {

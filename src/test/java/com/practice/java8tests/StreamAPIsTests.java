@@ -1,4 +1,4 @@
-package com.epam.java8tests;
+package com.practice.java8tests;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.List;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.epam.genericfunctions.StreamsTasks;
-import com.epam.userdefined.Product;
+import com.practice.genericfunctions.StreamsTasks;
+import com.practice.userdefined.Product;
 
 public class StreamAPIsTests extends StreamsTasks {
 	

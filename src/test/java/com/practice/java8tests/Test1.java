@@ -1,4 +1,4 @@
-package com.epam.java8tests;
+package com.practice.java8tests;
 
 public class Test1 {
 

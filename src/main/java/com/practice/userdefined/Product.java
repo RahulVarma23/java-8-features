@@ -1,4 +1,4 @@
-package com.epam.userdefined;
+package com.practice.userdefined;
 
 public class Product {
 	

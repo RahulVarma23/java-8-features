@@ -1,14 +1,14 @@
-package com.epam.java8tests;
+package com.practice.java8tests;
 import java.util.*;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.epam.fuctionalinterfaces.TestAnagram;
-import com.epam.fuctionalinterfaces.TestNumbers;
-import com.epam.fuctionalinterfaces.TestPolindrome;
-import com.epam.genericfunctions.LambdaExpressionTasks;
-import com.epam.userdefined.Employee;
+import com.practice.fuctionalinterfaces.TestAnagram;
+import com.practice.fuctionalinterfaces.TestNumbers;
+import com.practice.fuctionalinterfaces.TestPolindrome;
+import com.practice.genericfunctions.LambdaExpressionTasks;
+import com.practice.userdefined.Employee;
 
 public class LambdaExpressionsTests extends LambdaExpressionTasks{
 	

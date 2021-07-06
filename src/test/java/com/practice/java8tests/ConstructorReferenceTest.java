@@ -1,9 +1,9 @@
-package com.epam.java8tests;
+package com.practice.java8tests;
 
 import org.testng.annotations.Test;
 
-import com.epam.fuctionalinterfaces.TestReference;
-import com.epam.userdefined.Employee;
+import com.practice.fuctionalinterfaces.TestReference;
+import com.practice.userdefined.Employee;
 
 public class ConstructorReferenceTest {
 

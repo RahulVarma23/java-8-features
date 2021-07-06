@@ -1,10 +1,10 @@
-package com.epam.java8tests;
+package com.practice.java8tests;
 
 import java.util.ArrayList;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import com.epam.genericfunctions.FunctionInterfaceTasks;
-import com.epam.userdefined.Product;
+import com.practice.genericfunctions.FunctionInterfaceTasks;
+import com.practice.userdefined.Product;
 
 public class FunctionInterfaceTests extends FunctionInterfaceTasks{
 	
