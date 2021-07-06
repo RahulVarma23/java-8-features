@@ -5,7 +5,7 @@
       <parameter name = "price" value="1000"/>
       <parameter name = "name" value="TV"/>
     <classes>
-      <class name="com.epam.java8tests.BiFunctionalInterfacesTests">
+      <class name="com.practice.java8tests.BiFunctionalInterfacesTests">
       <methods>
         <include name="createProductUsingBiFunction" />
       </methods>
@@ -14,7 +14,7 @@
   </test> <!-- Test -->
   <test name="Given the Product and quantity of the products, write a BiFunction to calculate the cost of products. A cart is a map of product and quantity. Given the cart, calculate the cost of the cart">
     <classes>
-      <class name="com.epam.java8tests.BiFunctionalInterfacesTests">
+      <class name="com.practice.java8tests.BiFunctionalInterfacesTests">
       <methods>
         <include name="calculateCostOfCart" />
       </methods>

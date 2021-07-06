@@ -4,7 +4,7 @@
 	<test name="Define a predicate to check if the price of given product is greaterthan 1000/-. Print all the products from the given list of the products if the price is greaterthan 1000/-.">
 		<parameter name="price" value="1000" />
 		<classes>
-			<class name="com.epam.java8tests.PredicateTests">
+			<class name="com.practice.java8tests.PredicateTests">
 				<methods>
 					<include name="checkPriceOfGivenProduct" />
 				</methods>
@@ -14,7 +14,7 @@
 	<test name="Define a predicate to check if the product is of electronics category. Print all the products from the given list of the products if the product is of electronics category">
 		<parameter name="category" value="electronics" />
 		<classes>
-			<class name="com.epam.java8tests.PredicateTests">
+			<class name="com.practice.java8tests.PredicateTests">
 				<methods>
 					<include name="checkCategoryOfGivenProduct" />
 				</methods>
@@ -25,7 +25,7 @@
 		<parameter name="category" value="electronics" />
 		<parameter name="price" value="100" />
 		<classes>
-			<class name="com.epam.java8tests.PredicateTests">
+			<class name="com.practice.java8tests.PredicateTests">
 				<methods>
 					<include name="printProducts1" />
 				</methods>
@@ -36,7 +36,7 @@
 		<parameter name="category" value="electronics" />
 		<parameter name="price" value="100" />
 		<classes>
-			<class name="com.epam.java8tests.PredicateTests">
+			<class name="com.practice.java8tests.PredicateTests">
 				<methods>
 					<include name="printProducts2" />
 				</methods>
@@ -47,7 +47,7 @@
 		<parameter name="category" value="electronics" />
 		<parameter name="price" value="100" />
 		<classes>
-			<class name="com.epam.java8tests.PredicateTests">
+			<class name="com.practice.java8tests.PredicateTests">
 				<methods>
 					<include name="printProducts3" />
 				</methods>
@@ -57,7 +57,7 @@
 	<test name="Define a predicate to check if the status code is 400. Print all the responses with status code 400 from the given list of responses">
 		<parameter name="statusCode" value="400" />
 		<classes>
-			<class name="com.epam.java8tests.PredicateTests">
+			<class name="com.practice.java8tests.PredicateTests">
 				<methods>
 					<include name="checkStatusCode" />
 				</methods>
@@ -67,7 +67,7 @@
 	<test name="Define a predicate to check if the response type JSON. Print all the responses the response type JSON from the given list of responses">
 		<parameter name="responseType" value="JSON" />
 		<classes>
-			<class name="com.epam.java8tests.PredicateTests">
+			<class name="com.practice.java8tests.PredicateTests">
 				<methods>
 					<include name="checkResponseType" />
 				</methods>
@@ -78,7 +78,7 @@
 		<parameter name="statusCode" value="400" />
 		<parameter name="responseType" value="JSON" />
 		<classes>
-			<class name="com.epam.java8tests.PredicateTests">
+			<class name="com.practice.java8tests.PredicateTests">
 				<methods>
 					<include name="printResponse1" />
 				</methods>
@@ -89,7 +89,7 @@
 		<parameter name="statusCode" value="400" />
 		<parameter name="responseType" value="JSON" />
 		<classes>
-			<class name="com.epam.java8tests.PredicateTests">
+			<class name="com.practice.java8tests.PredicateTests">
 				<methods>
 					<include name="printResponse2" />
 				</methods>
@@ -100,7 +100,7 @@
 		<parameter name="statusCode" value="400" />
 		<parameter name="responseType" value="JSON" />
 		<classes>
-			<class name="com.epam.java8tests.PredicateTests">
+			<class name="com.practice.java8tests.PredicateTests">
 				<methods>
 					<include name="printResponse3" />
 				</methods>

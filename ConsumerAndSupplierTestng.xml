@@ -4,7 +4,7 @@
 	<test name=" Given a product write a consumer to print the product to appropriate medium depending on the print parameter. If the print parameter is set to file, consumer shall log the product to file, if not print on the console.">
 	    <parameter name = "printParameter" value="file"/> 
 		<classes>
-			<class name="com.epam.java8tests.ConsumerAndSuppilerTests">
+			<class name="com.practice.java8tests.ConsumerAndSuppilerTests">
 				<methods>
 					<include name="printProductToGivenMedium" />
 				</methods>
@@ -13,7 +13,7 @@
 	</test> <!-- Test -->
 	<test name="Write a Consumer to update the grade of the product as 'Premium' if the price is > 1000/-. Given the product list, update the grade for each product and print all of the products. ">
 		<classes>
-			<class name="com.epam.java8tests.ConsumerAndSuppilerTests">
+			<class name="com.practice.java8tests.ConsumerAndSuppilerTests">
 				<methods>
 					<include name="upgradeGradeOfProduct" />
 				</methods>
@@ -22,7 +22,7 @@
 	</test> <!-- Test -->
 	<test name="Write a Consumer to update the name of the product to be suffixed with '*' if the price of product is > 3000/-. Given the product list, update the name for each product and print all of the products">
 		<classes>
-			<class name="com.epam.java8tests.ConsumerAndSuppilerTests">
+			<class name="com.practice.java8tests.ConsumerAndSuppilerTests">
 				<methods>
 					<include name="updateNameOfProduct" />
 				</methods>
@@ -31,7 +31,7 @@
 	</test> <!-- Test -->
 	<test name="Print all the Premium grade products with name suffixed with '*'">
 		<classes>
-			<class name="com.epam.java8tests.ConsumerAndSuppilerTests">
+			<class name="com.practice.java8tests.ConsumerAndSuppilerTests">
 				<methods>
 					<include name="printPremierGradeOfProduct" />
 				</methods>
@@ -40,7 +40,7 @@
 	</test> <!-- Test -->
 	<test name="Write a supplier to produce a random OTP. ">
 		<classes>
-			<class name="com.epam.java8tests.ConsumerAndSuppilerTests">
+			<class name="com.practice.java8tests.ConsumerAndSuppilerTests">
 				<methods>
 					<include name="generateRandomOTP" />
 				</methods>
@@ -49,7 +49,7 @@
 	</test> <!-- Test -->
 	<test name="Write a supplier to produce a random product">
 		<classes>
-			<class name="com.epam.java8tests.ConsumerAndSuppilerTests">
+			<class name="com.practice.java8tests.ConsumerAndSuppilerTests">
 				<methods>
 					<include name="generateRandomProduct" />
 				</methods>

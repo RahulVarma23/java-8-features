@@ -3,7 +3,7 @@
 <suite name="Suite">
 	<test name="Write a function to calculate the cost of all products in a given list of products">
 		<classes>
-			<class name="com.epam.java8tests.FunctionInterfaceTests">
+			<class name="com.practice.java8tests.FunctionInterfaceTests">
 				<methods>
 					<include name="calculateTotalCostOfProductsInGivenList" />
 				</methods>
@@ -13,7 +13,7 @@
 	<test name="Write a function to calculate the cost of all products whose prices is > 1000/- in the given list of products">
 	    <parameter name="price" value="1000" />
 		<classes>
-			<class name="com.epam.java8tests.FunctionInterfaceTests">
+			<class name="com.practice.java8tests.FunctionInterfaceTests">
 				<methods>
 					<include name="calculateTotalCostOfProductsInGivenListOnBasisOfPrice" />
 				</methods>
@@ -23,7 +23,7 @@
 	<test name="Write a function to calculate the cost of all electronic products in the given list of products">
 	    <parameter name="category" value="electronics" />
 		<classes>
-			<class name="com.epam.java8tests.FunctionInterfaceTests">
+			<class name="com.practice.java8tests.FunctionInterfaceTests">
 				<methods>
 					<include name="calculateTotalCostOfProductsInGivenListOnBasisOfCategory" />
 				</methods>
@@ -34,7 +34,7 @@
 	    <parameter name="price" value="1000" />
 	    <parameter name="category" value="electronics" />
 		<classes>
-			<class name="com.epam.java8tests.FunctionInterfaceTests">
+			<class name="com.practice.java8tests.FunctionInterfaceTests">
 				<methods>
 					<include name="calculateTotalCostOfProductsInGivenListOnBasisOdPriceAndCategory" />
 				</methods>

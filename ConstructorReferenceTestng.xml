@@ -3,7 +3,7 @@
 <suite name="Suite">
 	<test name="Write a program get the details of Employee Object , such as name,id, where Employee class has parameterized constructor using constructor reference">
 		<classes>
-			<class name="com.epam.java8tests.ConstructorReferenceTest">
+			<class name="com.practice.java8tests.ConstructorReferenceTest">
 				<methods>
 					<include name="getEmployeeDetails" />
 				</methods>

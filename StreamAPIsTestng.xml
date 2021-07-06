@@ -4,7 +4,7 @@
   <test name="From the given list of the products get all the products with price>1000">
       <parameter name = "price" value="1000"/>
     <classes>
-      <class name="com.epam.java8tests.StreamAPIsTests">
+      <class name="com.practice.java8tests.StreamAPIsTests">
       <methods>
         <include name="sortProductsWithPrice" />
       </methods>
@@ -14,7 +14,7 @@
   <test name="From the given list of the products get all the products from electronics category">
       <parameter name = "category" value="electronics"/>
     <classes>
-      <class name="com.epam.java8tests.StreamAPIsTests">
+      <class name="com.practice.java8tests.StreamAPIsTests">
       <methods>
         <include name="sortProductsWithCategory" />
       </methods>
@@ -25,7 +25,7 @@
       <parameter name = "price" value="1000"/>
       <parameter name = "category" value="electronics"/>
     <classes>
-      <class name="com.epam.java8tests.StreamAPIsTests">
+      <class name="com.practice.java8tests.StreamAPIsTests">
       <methods>
         <include name="sortProductsWithPriceAndCategory" />
       </methods>
@@ -35,7 +35,7 @@
   <test name="Calculate the count of all electronic products in the given list of products">
       <parameter name = "category" value="electronics"/>
     <classes>
-      <class name="com.epam.java8tests.StreamAPIsTests">
+      <class name="com.practice.java8tests.StreamAPIsTests">
       <methods>
         <include name="findCountOfProductsBasedOnCategory" />
       </methods>
