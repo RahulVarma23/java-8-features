@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Check if a given string is a palindrome">
+      <parameter name = "givenString" value="naman"/>
+    <classes>
+      <class name="com.epam.java8tests.LambdaExpressionsTests">
+      <methods>
+        <include name="checkPolindromeString" />
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Find the 2nd biggest number in the given list of numbers">
+    <classes>
+      <class name="com.epam.java8tests.LambdaExpressionsTests">
+      <methods>
+        <include name="findSecondLargestNumber" />
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="write a program to check if two strings are rotations of each other.">
+      <parameter name = "string1" value="tea"/>
+      <parameter name = "string2" value="eat"/>
+    <classes>
+      <class name="com.epam.java8tests.LambdaExpressionsTests">
+      <methods>
+        <include name="checkIfStringsAreRoatationOfEachOther" />
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Use Runnable interface to start a new thread and print numbers from ">
+    <classes>
+      <class name="com.epam.java8tests.LambdaExpressionsTests">
+      <methods>
+        <include name="printNumbers" />
+      </methods>
+      </class>
+    </classes>
+  </test> 
+  <!-- Test --><test name="Use Comparator inerface to sort given list of numbers in reverse order">
+    <classes>
+      <class name="com.epam.java8tests.LambdaExpressionsTests">
+      <methods>
+        <include name="sortNumbersInReverseOrderWithList" />
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Use Comparator inerface to sort given list of Employees in the alphabetic order of their name">
+    <classes>
+      <class name="com.epam.java8tests.LambdaExpressionsTests">
+      <methods>
+        <include name="sortListOfEmployeesInTheAlphabeticOrderOfNameS" />
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Create a TreeSet that sorts the given set of numbers in reverse order">
+    <classes>
+      <class name="com.epam.java8tests.LambdaExpressionsTests">
+      <methods>
+        <include name="sortValuesInDescendingOrderWithTreeSet" />
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Create a TreeSet that sorts the given set of Employees in the alphabetic order of their name">
+    <classes>
+      <class name="com.epam.java8tests.LambdaExpressionsTests">
+      <methods>
+        <include name="sortSetOfEmployeesInAlphabeticalOrderOfNameWithTreeSet" />
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Create a TreeMap that sorts the given set of values in decending order">
+    <classes>
+      <class name="com.epam.java8tests.LambdaExpressionsTests">
+      <methods>
+        <include name="sortValuesInDescendingOrderWithTreeMap" />
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Create a TreeMap that sorts the given set of employees in decending order of their name">
+    <classes>
+      <class name="com.epam.java8tests.LambdaExpressionsTests">
+      <methods>
+        <include name="descendingComparatorWithTreeMap" />
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Use Collections.Sort to sort the given list of Employees in decending order of their name">
+    <classes>
+      <class name="com.epam.java8tests.LambdaExpressionsTests">
+      <methods>
+        <include name="sortListOfEmployeesInTheDecsendingOrderOfName" />
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

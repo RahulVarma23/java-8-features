@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Write a function to calculate the cost of all products in a given list of products">
+		<classes>
+			<class name="com.epam.java8tests.FunctionInterfaceTests">
+				<methods>
+					<include name="calculateTotalCostOfProductsInGivenList" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Write a function to calculate the cost of all products whose prices is > 1000/- in the given list of products">
+	    <parameter name="price" value="1000" />
+		<classes>
+			<class name="com.epam.java8tests.FunctionInterfaceTests">
+				<methods>
+					<include name="calculateTotalCostOfProductsInGivenListOnBasisOfPrice" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Write a function to calculate the cost of all electronic products in the given list of products">
+	    <parameter name="category" value="electronics" />
+		<classes>
+			<class name="com.epam.java8tests.FunctionInterfaceTests">
+				<methods>
+					<include name="calculateTotalCostOfProductsInGivenListOnBasisOfCategory" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Write a function to get all the products whose price is is > 1000/- and belongs to electronic category">
+	    <parameter name="price" value="1000" />
+	    <parameter name="category" value="electronics" />
+		<classes>
+			<class name="com.epam.java8tests.FunctionInterfaceTests">
+				<methods>
+					<include name="calculateTotalCostOfProductsInGivenListOnBasisOdPriceAndCategory" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

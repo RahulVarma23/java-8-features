@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Define a predicate to check if the price of given product is greaterthan 1000/-. Print all the products from the given list of the products if the price is greaterthan 1000/-.">
+		<parameter name="price" value="1000" />
+		<classes>
+			<class name="com.epam.java8tests.PredicateTests">
+				<methods>
+					<include name="checkPriceOfGivenProduct" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Define a predicate to check if the product is of electronics category. Print all the products from the given list of the products if the product is of electronics category">
+		<parameter name="category" value="electronics" />
+		<classes>
+			<class name="com.epam.java8tests.PredicateTests">
+				<methods>
+					<include name="checkCategoryOfGivenProduct" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Print all the products from the given list of product if the product price is greaterthan 100/- which are in electronics category">
+		<parameter name="category" value="electronics" />
+		<parameter name="price" value="100" />
+		<classes>
+			<class name="com.epam.java8tests.PredicateTests">
+				<methods>
+					<include name="printProducts1" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Print all the products from the given list of product if the product price is greaterthan 100/- or product is in electronics category">
+		<parameter name="category" value="electronics" />
+		<parameter name="price" value="100" />
+		<classes>
+			<class name="com.epam.java8tests.PredicateTests">
+				<methods>
+					<include name="printProducts2" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Print all the products from the given list of product if the product price is lessthan 100/- and product is in electronics category">
+		<parameter name="category" value="electronics" />
+		<parameter name="price" value="100" />
+		<classes>
+			<class name="com.epam.java8tests.PredicateTests">
+				<methods>
+					<include name="printProducts3" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Define a predicate to check if the status code is 400. Print all the responses with status code 400 from the given list of responses">
+		<parameter name="statusCode" value="400" />
+		<classes>
+			<class name="com.epam.java8tests.PredicateTests">
+				<methods>
+					<include name="checkStatusCode" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Define a predicate to check if the response type JSON. Print all the responses the response type JSON from the given list of responses">
+		<parameter name="responseType" value="JSON" />
+		<classes>
+			<class name="com.epam.java8tests.PredicateTests">
+				<methods>
+					<include name="checkResponseType" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Print all the responses with status code 400 and response type JSON">
+		<parameter name="statusCode" value="400" />
+		<parameter name="responseType" value="JSON" />
+		<classes>
+			<class name="com.epam.java8tests.PredicateTests">
+				<methods>
+					<include name="printResponse1" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Print all the responses with status code 400 or response type JSON">
+		<parameter name="statusCode" value="400" />
+		<parameter name="responseType" value="JSON" />
+		<classes>
+			<class name="com.epam.java8tests.PredicateTests">
+				<methods>
+					<include name="printResponse2" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Print all the responses with status code is not 400 and response type JSON">
+		<parameter name="statusCode" value="400" />
+		<parameter name="responseType" value="JSON" />
+		<classes>
+			<class name="com.epam.java8tests.PredicateTests">
+				<methods>
+					<include name="printResponse3" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
